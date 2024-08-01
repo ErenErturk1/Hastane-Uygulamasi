@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D4A7CD12-A633-4C6B-99A7-A87E78CEBC04}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hastane_Uygulaması</RootNamespace>
+    <AssemblyName>Hastane Uygulaması</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ana Sayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ana Sayfa.Designer.cs">
+      <DependentUpon>Ana Sayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="baglantiSinif.cs" />
+    <Compile Include="Doktor Ara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor Ara.Designer.cs">
+      <DependentUpon>Doktor Ara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor Guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor Guncelle.Designer.cs">
+      <DependentUpon>Doktor Guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor Kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor Kayit.Designer.cs">
+      <DependentUpon>Doktor Kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor Listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor Listele.Designer.cs">
+      <DependentUpon>Doktor Listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor Sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doktor Sil.Designer.cs">
+      <DependentUpon>Doktor Sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris Ara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris Ara.Designer.cs">
+      <DependentUpon>Giris Ara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris Ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris Ekrani.Designer.cs">
+      <DependentUpon>Giris Ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris Guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris Guncelle.Designer.cs">
+      <DependentUpon>Giris Guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris Kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris Kayit.Designer.cs">
+      <DependentUpon>Giris Kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris Listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris Listele.Designer.cs">
+      <DependentUpon>Giris Listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris Sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris Sil.Designer.cs">
+      <DependentUpon>Giris Sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta Ara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta Ara.Designer.cs">
+      <DependentUpon>Hasta Ara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta Guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta Guncelle.Designer.cs">
+      <DependentUpon>Hasta Guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta Kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta Kayit.Designer.cs">
+      <DependentUpon>Hasta Kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta Listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta Listele.Designer.cs">
+      <DependentUpon>Hasta Listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta Sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta Sil.Designer.cs">
+      <DependentUpon>Hasta Sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaneOtomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HastaneOtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Kayit Ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kayit Ekrani.Designer.cs">
+      <DependentUpon>Kayit Ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rezervasyon Ara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezervasyon Ara.Designer.cs">
+      <DependentUpon>Rezervasyon Ara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rezervasyon Guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezervasyon Guncelle.Designer.cs">
+      <DependentUpon>Rezervasyon Guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rezervasyon Kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezervasyon Kayit.Designer.cs">
+      <DependentUpon>Rezervasyon Kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rezervasyon Listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezervasyon Listele.Designer.cs">
+      <DependentUpon>Rezervasyon Listele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rezervasyon Sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezervasyon Sil.Designer.cs">
+      <DependentUpon>Rezervasyon Sil.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ana Sayfa.resx">
+      <DependentUpon>Ana Sayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor Ara.resx">
+      <DependentUpon>Doktor Ara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor Guncelle.resx">
+      <DependentUpon>Doktor Guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor Kayit.resx">
+      <DependentUpon>Doktor Kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor Listele.resx">
+      <DependentUpon>Doktor Listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor Sil.resx">
+      <DependentUpon>Doktor Sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris Ara.resx">
+      <DependentUpon>Giris Ara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris Ekrani.resx">
+      <DependentUpon>Giris Ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris Guncelle.resx">
+      <DependentUpon>Giris Guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris Kayit.resx">
+      <DependentUpon>Giris Kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris Listele.resx">
+      <DependentUpon>Giris Listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris Sil.resx">
+      <DependentUpon>Giris Sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta Ara.resx">
+      <DependentUpon>Hasta Ara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta Guncelle.resx">
+      <DependentUpon>Hasta Guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta Kayit.resx">
+      <DependentUpon>Hasta Kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta Listele.resx">
+      <DependentUpon>Hasta Listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta Sil.resx">
+      <DependentUpon>Hasta Sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayit Ekrani.resx">
+      <DependentUpon>Kayit Ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Rezervasyon Ara.resx">
+      <DependentUpon>Rezervasyon Ara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rezervasyon Guncelle.resx">
+      <DependentUpon>Rezervasyon Guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rezervasyon Kayit.resx">
+      <DependentUpon>Rezervasyon Kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rezervasyon Listele.resx">
+      <DependentUpon>Rezervasyon Listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rezervasyon Sil.resx">
+      <DependentUpon>Rezervasyon Sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="HastaneOtomasyonuDataSet.xsc">
+      <DependentUpon>HastaneOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HastaneOtomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HastaneOtomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HastaneOtomasyonuDataSet.xss">
+      <DependentUpon>HastaneOtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,32 @@
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\bin\Debug\Hastane Uygulaması.exe.config
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\bin\Debug\Hastane Uygulaması.exe
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\bin\Debug\Hastane Uygulaması.pdb
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane Uygulaması.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Ana_Sayfa.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Doktor_Kayit.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Hasta_Kayit.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Properties.Resources.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane Uygulaması.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane Uygulaması.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane Uygulaması.exe
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane Uygulaması.pdb
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Doktor_Sil.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Hasta_Sil.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Doktor_Ara.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Doktor_Listele.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Hasta_Ara.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Hasta_Listele.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Doktor_Guncelle.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Giris_Ekrani.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Hasta_Guncelle.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Kayit_Ekrani.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Rezervasyon_Kayit.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Rezervasyon_Listele.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Rezervasyon_Ara.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Rezervasyon_Guncelle.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Rezervasyon_Sil.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Giris_Ara.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Giris_Guncelle.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Giris_Kayit.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Giris_Listele.resources
+C:\Users\User\Desktop\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması\obj\Debug\Hastane_Uygulaması.Giris_Sil.resources
