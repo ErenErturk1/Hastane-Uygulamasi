@@ -1,0 +1,9 @@
+1)Test.txt dosyasını "C:\ "klasörü içine kopyalayın.
+2)Daha sonra içini açıp "Data source=....; " noktaların olduğu kısma kendi sql bağlantı adınızı yazın.
+3)Dosyayı kaydedin ve kapatın.
+----
+4)Task Manager(görev yöneticisi)'dan SQLServer olarak çalışan herşeyi durdurun.(durdurduklarınızı unutmayın!)
+5)size yolladığım "Database" klasörü içindeki dosyaları "C:\Program Files\Microsoft SQL Server\"MSSQL15.MSSQLSERVER"(tırnakla işaretli yerin adı sizde değişik olabilir)\MSSQL\DATA içine atın.
+6)Daha sonra task managerden durdurduğumuz herşeyi çalıştırın.
+7)Sql serveri başlatıp database-sağtık "attach" tıklanır add butonu ile HastaneOtomasyonu.mdf seçilir ve daha sonra ok denilerek database kendi sql serverinize eklenir.
+8)Uygulamamı kurup("...\\Hastane Kayıt Uygulaması\Hastane Uygulaması\Hastane Uygulaması Setup\Debug\setup.exe")Kullanmaya başlayabilirsiniz.

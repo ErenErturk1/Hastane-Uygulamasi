@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Hastane Uygulaması", "Hastane Uygulaması\Hastane Uygulaması.vdproj", "{1B2AFAB7-72D9-419B-B80F-15498241E31E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B2AFAB7-72D9-419B-B80F-15498241E31E}.Debug|Default.ActiveCfg = Debug
+		{1B2AFAB7-72D9-419B-B80F-15498241E31E}.Debug|Default.Build.0 = Debug
+		{1B2AFAB7-72D9-419B-B80F-15498241E31E}.Release|Default.ActiveCfg = Release
+		{1B2AFAB7-72D9-419B-B80F-15498241E31E}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEC90BF3-2285-41EF-B110-0AFF1CA174BD}
+	EndGlobalSection
+EndGlobal
